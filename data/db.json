@@ -1,0 +1,25 @@
+{
+    "pizzas":[
+        {"id":1,"name":"Margherita", "type":"Salgada", "small":25.99, "large":35.99, "src": "https://images.pexels.com/photos/8965714/pexels-photo-8965714.jpeg?auto=compress&cs=tinysrgb&w=336&h=200&dpr=1"},
+        {"id":2,"name":"Pepperoni","type":"Salgada", "small":23.59, "large":32.80,  "src": "https://images.pexels.com/photos/6488933/pexels-photo-6488933.jpeg?auto=compress&cs=tinysrgb&w=336&h=200&dpr=1"},
+        {"id":3, "name":"Portuguesa","type":"Salgada", "small":22.99, "large":33.59, "src": "https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg?auto=compress&cs=tinysrgb&w=336&h=200&dpr=1"},
+        {"id":4,"name":"Prestígio", "type":"Doce", "small":27.89, "large":40.79},
+        {"id":5,"name":"Chocolate","type":"Doce", "small":25.69, "large":39.60},
+        {"id":6, "name":"Cartola","type":"Doce", "small":26.19, "large":39.99}
+        ],
+      "bebidas":[
+        {"id":1,"name":"Coca-cola",  "lata":7.99, "2l":16.57},
+        {"id":2,"name":"Guaraná Antártica", "lata":5.99, "2l":12.57},
+        {"id":3, "name":"Suco Dell Vale", "price": 8.99},
+        {"id":4,"name":"Água com Gás", "price": 4.99}
+        ],
+      "combos":[
+        {"id":1,"name":"Os Varões", "description":"Duas pizzas salgadas grandes + bebida de 2 litros", "price":76.89},
+        {"id":2,"name":"A Varoa", "description":"Uma pizza salgada pequena + uma pizza doce pequena + bebida em lata", "price":49.79},
+        {"id":1,"name":"Olivara's Especial", "description":"Duas pizzas salgadas grandes + uma pizza doce pequena + bebida de 2 litros", "price":98.59},
+        {"id":1,"name":"A Varinha", "description":"Uma pizza salgada ou doce pequena + bebida em lata", "price":33.69}
+        ],
+      "users":[
+        {"id":1, "first-name":"Alexandre", "last-name":"Lins", "email":"aslinsjr@gmail.com", "password":"123456"}
+      ]
+}
