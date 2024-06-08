@@ -1,26 +1,27 @@
 import React from 'react'
 
-const PizzasSalgadas = ({pizzas}) => {
-
-  
-
+const PizzasSalgadas = ({data, handleClick}) => {
 
   return (
-    <>
-    {pizzas.map((pizzaSalgada) => {
-      if(pizzaSalgada.type === "Salgada"){
+    <div className='products-container'>
+    {data.map((pizzaSalgada) => {
+      if(pizzaSalgada.type === "pizza-salgada"){
         return (
-          <div className='Salgadas'>
+          <div className='item' key={"salgada "+pizzaSalgada.id}>
             <h2>{pizzaSalgada.name}</h2>
             <img src={pizzaSalgada.src} alt="" />
-            <p>{pizzaSalgada.small}</p>
-            <p>{pizzaSalgada.large}</p>
+            <div className="price-container">
+              <div>
+                <p>Pequena R$ {pizzaSalgada.small}</p>
+                <p>Grande R$ {pizzaSalgada.large}</p>
+              </div>
+              <button id={pizzaSalgada.name} onClick={(e) => handleClick(e)}>+</button>
+            </div>
           </div>
         )
       }
   })}
-    </>
-    
+    </div>
   )
 }
 

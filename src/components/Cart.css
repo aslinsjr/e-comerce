@@ -1,0 +1,30 @@
+.cart-container {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+.cart-product {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr 1fr;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.2rem 0;
+    border-top: 1px solid black;
+    gap: 0.5rem;
+}
+
+#product-price {
+    font-size: 0.6rem;
+}
+
+#product-size {
+    font-size: 0.8rem;
+}

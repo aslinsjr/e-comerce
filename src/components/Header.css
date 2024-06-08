@@ -3,14 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bg-color);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.5rem;
     padding: 1rem 10%;
+}
+
+.cart-bag {
     position: relative;
 }
 
 .header img {
     width: 200px;
 }
-
